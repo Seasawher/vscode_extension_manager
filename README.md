@@ -4,6 +4,8 @@ This is a shell script for sharing extensions installed in a workspace in VSCode
 
 Use at your own risk.
 
+[The Japanese version is here.](/README.ja.md)
+
 ## Usage
 
 Suppose there are Alice and Bob, and Alice wants to share the extensions installed on her VSCode with Bob.
