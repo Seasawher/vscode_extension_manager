@@ -10,13 +10,23 @@ Use at your own risk.
 
 ## 使い方
 
+アリスさんとボブさんがいて，アリスさんが自分のワークスペースの拡張機能をボブに共有したがっているとします．
+
+### アリス側の作業
+
 1. `script.ps1` をダウンロードします
 
 1. ワークスペースの `.vscode` ディレクトリの中に `script.ps1` を置きます
 
 1. `script.ps1` を実行します．このとき，カレントディレクトリが `.vscode` ディレクトリになるようにしてください．[PowerShell 拡張機能](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)を使って，ファイルから直接実行することをお勧めします．
 
-1. 実行の結果，`.vscode` ディレクトリに `extensions.ps1` というファイルが生成されます．そのファイルを実行すれば，そのワークスペースの拡張機能をインストールすることができます．
+1. 実行の結果，`.vscode` ディレクトリに `extensions.ps1` というファイルが生成されます．
+
+1. `extensions.ps1` ファイルをボブに渡します
+
+### ボブ側の作業
+
+1. `extensions.ps1` ファイルを実行します．
 
 
 ## Usage
