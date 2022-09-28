@@ -1,6 +1,6 @@
 # vscode_extension_manager
 
-This is a shell script for sharing extensions installed in a workspace in VSCode.
+This is a shell script for sharing extensions installed in your VSCode.
 
 Use at your own risk.
 
