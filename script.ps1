@@ -5,6 +5,10 @@ $targetFile = ".\.vscode\extensions.ps1"
 New-Item $targetFile -ItemType file -Force
 Write-Host 'Prepare an empty extensions.ps1 file'
 
+# extensions.ps1の最初に，既存の拡張機能をアンインストールするコマンドを出力する
+$firstLine = 'code --list-extensions | ForEach-Object { "code --uninstall-extension $_" }'
+Add-Content $targetFile $firstLine
+
 # インストールされている拡張機能をすべて取得
 $extensions = code --list-extensions
 Write-Host 'Retrieved list of installed extensions.'
