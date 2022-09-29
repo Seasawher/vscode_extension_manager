@@ -15,15 +15,15 @@ VSCodeにおいて，ワークスペースにインストールされた拡張�
 
 1. `script.ps1` をダウンロードします
 
-2. `script.ps1` を `.vscode` ディレクトリを置くのと同じディレクトリに置きます．
+1. `script.ps1` を `.vscode` ディレクトリを置くのと同じディレクトリに置きます．
 
-3. `script.ps1` を実行します．
+1. `script.ps1` を実行します．
 
-4. 実行の結果，`.vscode` ディレクトリに `extensions.ps1` というファイルが生成されます．
+1. 実行の結果，`.vscode` ディレクトリに `extensions.ps1` というファイルが生成されます．
 
-5. 念のために `script.ps1` ファイルは `.gitignore` に追加しておきます．
+1. 念のために `script.ps1` ファイルは `.gitignore` に追加しておきます．
 
-6. `extensions.ps1` ファイルごとpushします．
+1. `extensions.ps1` ファイルごとpushします．
 
 ### ボブ側の作業
 
