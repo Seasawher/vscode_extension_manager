@@ -6,7 +6,6 @@ VSCodeにおいて，ワークスペースにインストールされた拡張�
 
 [The English version is here.](/README.md)
 
-
 ## 使い方
 
 アリスさんとボブさんがいて，アリスさんが自分のVSCodeにインストールされている拡張機能をGitHubなどを介してボブに共有したがっているとします．
