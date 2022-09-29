@@ -14,13 +14,15 @@ Suppose there are Alice and Bob, and Alice wants to share the extensions install
 
 1. Download `script.ps1`
 
-1. Place `script.ps1` in any directory.
+1. Place `script.ps1` in the same directory where you put the `.vscode` directory.
 
 1. Run `script.ps1`. 
 
-1. The execution results in a file `extensions.ps1` in the directory. 
+1. The execution results in a file `extensions.ps1` in the `.vscode` directory.
 
-1. Pass the `extensions.ps1` file to Bob
+1. The `script.ps1` file should be added to `.gitignore` just in case.
+
+2. Push the repository with the `extensions.ps1` file.
 
 ### Bob's side
 
