@@ -4,7 +4,7 @@ VSCodeにおいて，ワークスペースにインストールされた拡張�
 
 使用する際には自己責任でお願いします．
 
-[英語版はこちら](/README.md)です．
+[The English version is here.](/README.md)
 
 
 ## 使い方
