@@ -1,5 +1,8 @@
+# 生成するファイルの相対パスの設定
+$targetFile = ".\.vscode\extensions.ps1"
+
 # 空のファイルを用意する
-New-Item .\extensions.ps1 -ItemType file -Force
+New-Item $targetFile -ItemType file -Force
 Write-Host 'Prepare an empty extensions.ps1 file'
 
 # インストールされている拡張機能をすべて取得
@@ -12,7 +15,7 @@ foreach($extension in $extensions){
     $cmd = "code --install-extension $extension"
 
     # 追記する
-    Add-Content .\extensions.ps1 $cmd
+    Add-Content $targetFile $cmd
 }
 
 # 完了メッセージを表示する
