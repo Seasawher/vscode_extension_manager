@@ -4,7 +4,7 @@ This is a shell script for sharing extensions installed in your VSCode.
 
 Use at your own risk.
 
-[The Japanese version is here.](/README.ja.md)
+[日本語版はこちら](/README.ja.md)
 
 ## Usage
 
