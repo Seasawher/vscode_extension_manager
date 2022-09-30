@@ -6,7 +6,12 @@ New-Item $targetFile -ItemType file -Force
 Write-Host 'Prepare an empty extensions.ps1 file'
 
 # extensions.ps1の最初に，既存の拡張機能をアンインストールするコマンドを出力する
-$firstLine = 'code --list-extensions | ForEach-Object { "code --uninstall-extension $_" }'
+$firstLine = @'
+$currentExts = code --list-extensions
+foreach ($ext in $currentExts) {
+    code --uninstall-extension $ext
+}
+'@
 Add-Content $targetFile $firstLine
 
 # インストールされている拡張機能をすべて取得
